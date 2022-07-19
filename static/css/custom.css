@@ -1,0 +1,70 @@
+.container-fluid{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hero_main_text{
+    color:black;
+    font-size: 3em;
+    font-weight: 650;
+    
+}
+#hero_text{
+    color:black;
+    font-size: 1.30em;
+    font-weight: 600;
+    
+}
+
+
+.highlight_yellow{
+    background: linear-gradient(to top, #eaff00 40%, transparent 40%);
+}
+.highlight_green{
+    background: linear-gradient(to top, #00ff15 40%, transparent 40%);
+}
+.highlight_green2{
+    background: linear-gradient(to top, #00ff15 27%, transparent 27%);
+}
+
+#section_heading{
+    color:black;
+    font-size: 2em;
+    font-weight: 550;
+}
+
+#logo{
+    width:100px;
+}
+
+.sponsor_grid{
+    margin-top: 3em;
+}
+
+textarea{
+    resize: none;
+}
+
+.submit_button{
+    color: black;
+    background-color: #00ff15;
+    font-weight: 550;
+
+}
+
+.pseudo_code{
+    font-family: monospace;
+    font-size: 0.7em;
+    color: rgb(39, 39, 39);
+}
+
+
+.presented_by{
+    all:initial;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 500;
+    /* font-style: italic; */
+    margin-top: -100px;
+}
