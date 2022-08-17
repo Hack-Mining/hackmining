@@ -30,10 +30,10 @@
                 <details role="list" dir="rtl">
                     <summary class="contrast" aria-haspopup="listbox" role="link">GoTo</summary>
                     <ul role="listbox">
-                        <li style="text-align: left;"><a href="#challenges"> <span class="pseudo_code">0x1</span> Challenges</a></li>
-                        <li style="text-align: left;"><a href="#register_now"><span class="pseudo_code">0x2</span> Register</a></li>
-                        <li style="text-align: left;"><a href="#prices"><span class="pseudo_code">0x3</span> Prices</a></li>
-                        <li style="text-align: left;"><a href="#schedule"><span class="pseudo_code">0x4</span> Schedule</a></li>
+                        <li style="text-align: left;"><a href="#schedule"><span class="pseudo_code">0x1</span> Schedule</a></li>
+                        <li style="text-align: left;"><a href="#prices"><span class="pseudo_code">0x2</span> Prices</a></li>
+                        <li style="text-align: left;"><a href="#register_now"><span class="pseudo_code">0x3</span> Register</a></li>
+                        <li style="text-align: left;"><a href="#challenges"> <span class="pseudo_code">0x4</span> Challenges</a></li>
                         <li style="text-align: left;"><a href="#sponsors"><span class="pseudo_code">0x5</span> Challengers</a></li>
                         <li style="text-align: left;"><a href="#organizers"><span class="pseudo_code">0x6</span> Organizers</a></li>
                     </ul>
@@ -61,162 +61,83 @@
         </div>
     </main>
     
-    
-    
-    <main class="container-fluid" style="background-color: #ececec;">
-        <a id="challenges"></a>
+
+
+    <main class="container-fluid section_schedule">
+        <a id="schedule"></a>
         <div class="container">
             <p id="section_heading">
-                <span>The Challenges.</span>
+                
+                <span>Schedule.</span>
             </p>
-            
-            <section>
-                <hgroup>
-                    <h3><span class="highlight_green">Example: Muck Pile Detection using Deep Learning</span></h3>
-                    <h5>
-                        <em>Institute for Advanced Mining Technologies, RWTH Aachen University</em>
-                        <a target="_blank" href="https://www.amt.rwth-aachen.de/en/home.html"> &#128279;</a>
-                        
-                        <div style="margin-top: 0.8em";>
-                            <span class="skill_bubble coding">Coding</span>
-                            <span class="skill_bubble ml">Machine Learning</span>
-                            <span class="skill_bubble sensors">Sensors</span>
-                        </div>
-                        
-                    </h5>
-                    
-                </hgroup>
-                
-                The main task of an underground LHD loader is to move material from a blasted face to a crusher, orepass or truck. 
-                To fully automate the operation of an LHD loader, the loader must be able to detect the muck pile during its bucket 
-                filling operation. As the dusty and poorly lit underground environment poses a serious challenge, automating muck pile 
-                detection is one of the main obstacles towards fully automated operation. Your task is to build a solution using LIDAR, 
-                RGB-Cameras, Computer Vision and Machine Learning to detect the muck pile in order to automate the bucket filling operation of an LHD loader. 
-                You will be provided with all the necessary sensor modules, Nvidia GPU hardware to train neural nets and pre-labeled data. 
-                Join the Institute for Advanced Mining Technologies in its quest to solve LHD loader automation and help make underground 
-                mining more safe and environmentally friendly. People from any background and creative solutions welcome! 
-                
-                
-                
-            </section>
-            
-            <section>
-                <hgroup>
-                    <h3><span class="highlight_green">Digital Twin – From Edge to Cloud to Insight</span></h3>
-                    <h5>
-                        <em>Talpasolutions GmbH</em>
-                        <a target="_blank" href="https://www.linkedin.com/company/talpasolutions"> &#128279;</a>
-                        
-                        <div style="margin-top: 0.8em";>
-                            <span class="skill_bubble coding">Coding</span>
-                            <span class="skill_bubble analytics">Analytics</span>
-                            <span class="skill_bubble mechanical">Mechanical</span>
-                        </div>
-                        
-                    </h5>
-                    
-                </hgroup>
-                
-                
-                
-                With IoT, Big Data, and modern AI, we can optimize processes and significantly lower maintenance costs – the biggest drivers 
-                in mining operation costs. We log raw machine data and then perform advanced analytics in our cloud. 
-                The key challenges here are almost oppositional requirements of edge and cloud computing. 
-                
-                Your task is to combine data from different sources in the edge format MDF4, then send the data to 
-                an endpoint where you will convert it into the standard Big Data format Parquet. Your analysis of the data will 
-                lead to insights that optimize mining production and maintenance. You will have real machine data of a dump 
-                truck from a mine available for this task.
-                
-                Our challenge requires a broad skillset, so make sure your team has expertise in programming, quantitative analysis, and mechanical engineering.
-                
-                Join us in making the future of mining more efficient and sustainable with cutting-edge technology. 
-                We hope to see you work together in a diverse and interdisciplinary team, to come up with brilliant new ideas 
-                - just like we at talpasolutions do every day!
-                
-                
-            </section>
-
-            <section>
-                <hgroup>
-                    <h3><span class="highlight_green">Track Drive Condition Monitoring of Mining Excavators</span></h3>
-                    <h5>
-                        <em>Komatsu Germany GmbH</em>
-                        <a target="_blank" href="https://www.komatsu.eu/en"> &#128279;</a>
-                        <div style="margin-top: 0.8em";>
-                            <span class="skill_bubble mechanical">Mechanical</span>
-                            <span class="skill_bubble analytics">Analytics</span>
-                            <span class="skill_bubble ml">Machine Learning</span>
-                        </div>
-                    
-                    </h5>
-                    
-                </hgroup>
-                
-                It is crucial to know the wear status of mining excavator track drives, because that helps to avoid costly unplanned downtime.
-                To improve the current situation of risky and time-consuming manual geometric measurements, a concept of an automatic wear monitoring 
-                has been developed, that aims for detecting the wear during regular operation.
-                As a proof of concept, a few hundred events were measured on a 550t-excavator and manually analyzed. 
-                Depending on the operating conditions, evaluation of different physical effects visible in sensor data allows 
-                conclusions to the current wear of the track drive.
-                The task is to design an automatic algorithm to estimates the wear by evaluating the course of signals. 
-                To achieve that, toolboxes from Matlab (Signal Processing, Neural Network, Statistical) are to be applied. 
-                The outcome of the approaches should be validated by the manual evaluation results.
-                To get you on track, an overview of the physics, videos and prepared sensor data will be provided.
-                Take up the challenge and help make mining safer & smarter. Everyone, in particular students from engineering and computer science, is welcome.
-                
-            </section>
-            
-            <section>
-                <hgroup>
-                    <h3><span class="highlight_green">Underground Mining 4.0 - Developing novel, data-driven services</span></h3>
-                    <h5><em>Hermann Paus Maschinenfabrik GmbH</em><a target="_blank" href="https://www.paus.de/en/index.html"> &#128279;</a></h5>
-                    
-                </hgroup>
-                
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </section>
-            
-            <section>
-                <hgroup>
-                    <h3><span class="highlight_green">Smart Weighing - CAN-2-OPCUA</span></h3>
-                    <h5><em>PFREUNDT GmbH</em><a target="_blank" href="https://www.pfreundt.de/en/"> &#128279;</a></h5>
-                    
-                </hgroup>
-                
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </section>
-            
-            <section>
-                <hgroup>
-                    <h3><span class="highlight_green">PosSys 4.0 - 2D position detection system</span></h3>
-                    <h5><em>Becker Mining Systems AG</em><a target="_blank" href="https://www.becker-mining.com/en"> &#128279;</a></h5>
-                    
-                </hgroup>
-                
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </section>
-            
             
             <p>
-                <strong>Note:</strong>
-                Pick your teammates at the event or attend as a team - each team member has to register using 
-                the form on this website. If you decide to lone-wolf the event, that is fine with us as well.
+                We provide free lunch, dinner and drinks throughout the duration of the hackathon to all attendees. <br>
+                We <em>do not</em> provide free accommodation. The <em>Hack Mining!</em>-Hackathon addmitance starts at <strong>16:00</strong>. <br>
             </p>
+            
+            <p>
+                Directions: <a href="https://www.google.com/maps/place/Bergbau,+W%C3%BCllnerstra%C3%9Fe+2,+52062+Aachen/@50.7791746,6.0765945,699m/data=!3m2!1e3!4b1!4m5!3m4!1s0x47c099798f6e39ff:0xf496377c146444a8!8m2!3d50.7791712!4d6.0787832">Link Google Maps</a>
+            </p>
+            
+            <p>
+                If you have any organisational questions, please do not hesitate to get in touch with <a href="mailto:akoeller@amt.rwth-aachen.de?subject=[Enquiry HackMining]">Arne</a>.
+            </p>
+            
+            
+            <div class="grid">
+                <div style="margin-top: 2.25em;">
+                    <h3>Friday, 07. Oct. 2022</h3>
+                    <span style="font-size: 0.95em;">
+                        <b>16:00 - 16:30</b> Start & Admittance <br>
+                        <b>16:30 - 17:00</b> Welcome & Introduction <br>
+                        <b>17:00 - 18:00</b> Challenge pitches<br>
+                        <b>18:00 - 18:30</b> Picking teams & challenges<br>
+                        <b>18:30 - 19:30</b> Professional Pitch Coaching<br>
+                        <b>19:30 - Open End</b> Hacking 
+                    </span>
+                </div>
+                <div style="margin-top: 2.25em;">
+                    <h3>Saturday, 08. Oct. 2022</h3>
+                    <span style="font-size: 0.95em;">
+                        All day hacking.
+                    </span>
+                </div>
+                <div style="margin-top: 2.25em;">
+                    <h3>Sunday, 09. Oct. 2022</h3>
+                    <span style="font-size: 0.95em;">
+                        <b>until 12:00</b> Hacking <br>
+                        <b>12:30 - 13:30</b> Presenting results<br>
+                        <b>13:30 - 14:00</b> Jury picks winners<br>
+                        <b>14:00 - 14:30</b> Award ceremony
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+
+    <main class="container-fluid section_prices">
+        <a id="prices"></a>
+        <div class="container">
+            <p id="section_heading">
+                <span>Hackathon Prices.</span>
+                
+            </p>
+            
+            <p>
+                Every attendee receives an event-related T-Shirt, laptop sticker and attendee badge.
+            </p>
+            <ul>
+                <li><strong>First Place:</strong> 300,00€ + additional award ceremony @ <a href="https://bauma.de/en/">bauma 22</a> </li>
+                <li><strong>Second Place:</strong> 200,00€</li>
+                <li><strong>Third Place:</strong> 100,00€</li>
+            </ul>
             
         </div>
     </main>
     
-    <main class="container-fluid" style="background-color: white;">
+    <main class="container-fluid section_register">
         <a id="register_now"></a>
         <div class="container">
             <p id="section_heading">
@@ -308,81 +229,182 @@
         </div>
     </main>
     
-    <main class="container-fluid" style="background-color: #ececec;">
-        <a id="prices"></a>
+    <main class="container-fluid section_challenges" >
+        <a id="challenges"></a>
         <div class="container">
             <p id="section_heading">
-                <span>Hackathon Prices.</span>
-                
+                <span>The Challenges.</span>
             </p>
             
+            <section>
+                <hgroup>
+                    <h3><span class="highlight_green">Example: Muck Pile Detection using Deep Learning</span></h3>
+                    <h5>
+                        <em>Institute for Advanced Mining Technologies, RWTH Aachen University</em>
+                        <a target="_blank" href="https://www.amt.rwth-aachen.de/en/home.html"> &#128279;</a>
+                        
+                        <div style="margin-top: 0.8em";>
+                            <span class="skill_bubble coding">Coding</span>
+                            <span class="skill_bubble ml">Machine Learning</span>
+                            <span class="skill_bubble sensors">Sensors</span>
+                        </div>
+                        
+                    </h5>
+                    
+                </hgroup>
+                
+                The main task of an underground LHD loader is to move material from a blasted face to a crusher, orepass or truck. 
+                To fully automate the operation of an LHD loader, the loader must be able to detect the muck pile during its bucket 
+                filling operation. As the dusty and poorly lit underground environment poses a serious challenge, automating muck pile 
+                detection is one of the main obstacles towards fully automated operation. Your task is to build a solution using LIDAR, 
+                RGB-Cameras, Computer Vision and Machine Learning to detect the muck pile in order to automate the bucket filling operation of an LHD loader. 
+                You will be provided with all the necessary sensor modules, Nvidia GPU hardware to train neural nets and pre-labeled data. 
+                Join the Institute for Advanced Mining Technologies in its quest to solve LHD loader automation and help make underground 
+                mining more safe and environmentally friendly. People from any background and creative solutions welcome! 
+                
+                
+                
+            </section>
+            
+            <section>
+                <hgroup>
+                    <h3><span class="highlight_green">Digital Twin – From Edge to Cloud to Insight</span></h3>
+                    <h5>
+                        <em>Talpasolutions GmbH</em>
+                        <a target="_blank" href="https://www.linkedin.com/company/talpasolutions"> &#128279;</a>
+                        
+                        <div style="margin-top: 0.8em";>
+                            <span class="skill_bubble coding">Coding</span>
+                            <span class="skill_bubble analytics">Analytics</span>
+                            <span class="skill_bubble communication">Communication</span>
+                        </div>
+                        
+                    </h5>
+                    
+                </hgroup>
+                
+                
+                
+                With IoT, Big Data, and modern AI, we can optimize processes and significantly lower maintenance costs – the biggest drivers 
+                in mining operation costs. We log raw machine data and then perform advanced analytics in our cloud. 
+                The key challenges here are almost oppositional requirements of edge and cloud computing. 
+                
+                Your task is to combine data from different sources in the edge format MDF4, then send the data to 
+                an endpoint where you will convert it into the standard Big Data format Parquet. Your analysis of the data will 
+                lead to insights that optimize mining production and maintenance. You will have real machine data of a dump 
+                truck from a mine available for this task.
+                
+                Our challenge requires a broad skillset, so make sure your team has expertise in programming, quantitative analysis, and mechanical engineering.
+                
+                Join us in making the future of mining more efficient and sustainable with cutting-edge technology. 
+                We hope to see you work together in a diverse and interdisciplinary team, to come up with brilliant new ideas 
+                - just like we at talpasolutions do every day!
+                
+                
+            </section>
+
+            <section>
+                <hgroup>
+                    <h3><span class="highlight_green">Track Drive Condition Monitoring of Mining Excavators</span></h3>
+                    <h5>
+                        <em>Komatsu Germany GmbH</em>
+                        <a target="_blank" href="https://www.komatsu.eu/en"> &#128279;</a>
+                        <div style="margin-top: 0.8em";>
+                            <span class="skill_bubble mechanical">Mechanical</span>
+                            <span class="skill_bubble analytics">Analytics</span>
+                            <span class="skill_bubble ml">Machine Learning</span>
+                        </div>
+                    
+                    </h5>
+                    
+                </hgroup>
+                
+                It is crucial to know the wear status of mining excavator track drives, because that helps to avoid costly unplanned downtime.
+                To improve the current situation of risky and time-consuming manual geometric measurements, a concept of an automatic wear monitoring 
+                has been developed, that aims for detecting the wear during regular operation.
+                As a proof of concept, a few hundred events were measured on a 550t-excavator and manually analyzed. 
+                Depending on the operating conditions, evaluation of different physical effects visible in sensor data allows 
+                conclusions to the current wear of the track drive.
+                The task is to design an automatic algorithm to estimates the wear by evaluating the course of signals. 
+                To achieve that, toolboxes from Matlab (Signal Processing, Neural Network, Statistical) are to be applied. 
+                The outcome of the approaches should be validated by the manual evaluation results.
+                To get you on track, an overview of the physics, videos and prepared sensor data will be provided.
+                Take up the challenge and help make mining safer & smarter. Everyone, in particular students from engineering and computer science, is welcome.
+                
+            </section>
+            
+            <section>
+                <hgroup>
+                    <h3><span class="highlight_green">Underground Mining 4.0 - Developing novel, data-driven services</span></h3>
+                    <h5>
+                        <em>Hermann Paus Maschinenfabrik GmbH</em>
+                        <a target="_blank" href="https://www.paus.de/en/index.html"> &#128279;</a>
+                    
+                    </h5>
+                    
+                </hgroup>
+                
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </section>
+            
+            <section>
+                <hgroup>
+                    <h3><span class="highlight_green">Smart Weighing - CAN-2-OPCUA</span></h3>
+                    <h5>
+                        <em>PFREUNDT GmbH</em>
+                        <a target="_blank" href="https://www.pfreundt.de/en/"> &#128279;</a>
+                        <div style="margin-top: 0.8em";>
+                            <span class="skill_bubble coding">Coding</span>
+                            <span class="skill_bubble electronics">Electronics</span>
+                            <span class="skill_bubble communication">Communication</span>
+                        </div>
+                    </h5>
+                    
+                </hgroup>
+                
+                A system is to be created that accepts the weight and status data of a platform scale and makes it available via an OPC UA server.
+                The platform scale will be connected to a PFREUNDT WB60 electronic system. The WB60 puts the determined 
+                weight and status values on a CAN bus (J1939). This data is to be recorded on a PC and visualized using OPC UA.
+            </section>
+            
+            <section>
+                <hgroup>
+                    <h3><span class="highlight_green">PosSys 4.0 - 2D position detection system</span></h3>
+                    <h5>
+                        <em>Becker Mining Systems AG</em>
+                        <a target="_blank" href="https://www.becker-mining.com/en"> &#128279;</a>
+                        <div style="margin-top: 0.8em";>
+                            <span class="skill_bubble coding">Coding</span>
+                            <span class="skill_bubble electronics">Electronics</span>
+                            <span class="skill_bubble sensors">Sensors</span>
+                        </div>
+                    </h5>
+                    
+                </hgroup>
+                
+                A 2D positioning validation system should be developed for the purpose of evaluating the reliability and accuracy 
+                of a collision awareness and proximity detection module.
+                Given the position of a mining vehicle and a known target, the distance between these two must be determined. 
+                An easy to use validation system with known precision is therefore required.
+                Utilizing the same ranging technology as the collision awereness module, as well as using trilateration, a 
+                position from distances to known anchor points shall be determined by the validation system.
+
+            </section>
+            
+            
             <p>
-                Every attendee receives an event-related T-Shirt, laptop sticker and attendee badge.
+                <strong>Note:</strong>
+                Pick your teammates at the event or attend as a team - each team member has to register using 
+                the form on this website. If you decide to lone-wolf the event, that is fine with us as well.
             </p>
-            <ul>
-                <li><strong>First Place:</strong> 300,00€ + additional award ceremony @ <a href="https://bauma.de/en/">bauma 22</a> </li>
-                <li><strong>Second Place:</strong> 200,00€</li>
-                <li><strong>Third Place:</strong> 100,00€</li>
-            </ul>
             
         </div>
     </main>
     
-    <main class="container-fluid" style="background-color: white;">
-        <a id="schedule"></a>
-        <div class="container">
-            <p id="section_heading">
-                
-                <span>Schedule.</span>
-            </p>
-            
-            <p>
-                We provide free lunch, dinner and drinks throughout the duration of the hackathon to all attendees. <br>
-                We <em>do not</em> provide free accommodation. The <em>Hack Mining!</em>-Hackathon addmitance starts at <strong>16:00</strong>. <br>
-            </p>
-            
-            <p>
-                Directions: <a href="https://www.google.com/maps/place/Bergbau,+W%C3%BCllnerstra%C3%9Fe+2,+52062+Aachen/@50.7791746,6.0765945,699m/data=!3m2!1e3!4b1!4m5!3m4!1s0x47c099798f6e39ff:0xf496377c146444a8!8m2!3d50.7791712!4d6.0787832">Link Google Maps</a>
-            </p>
-            
-            <p>
-                If you have any organisational questions, please do not hesitate to get in touch with <a href="mailto:akoeller@amt.rwth-aachen.de?subject=[Enquiry HackMining]">Arne</a>.
-            </p>
-            
-            
-            <div class="grid">
-                <div style="margin-top: 2.25em;">
-                    <h3>Friday, 07. Oct. 2022</h3>
-                    <span style="font-size: 0.95em;">
-                        <b>16:00 - 16:30</b> Start & Admittance <br>
-                        <b>16:30 - 17:00</b> Welcome & Introduction <br>
-                        <b>17:00 - 18:00</b> Challenge pitches<br>
-                        <b>18:00 - 18:30</b> Picking teams & challenges<br>
-                        <b>18:30 - 19:30</b> Professional Pitch Coaching<br>
-                        <b>19:30 - Open End</b> Hacking 
-                    </span>
-                </div>
-                <div style="margin-top: 2.25em;">
-                    <h3>Saturday, 08. Oct. 2022</h3>
-                    <span style="font-size: 0.95em;">
-                        All day hacking.
-                    </span>
-                </div>
-                <div style="margin-top: 2.25em;">
-                    <h3>Sunday, 09. Oct. 2022</h3>
-                    <span style="font-size: 0.95em;">
-                        <b>until 12:00</b> Hacking <br>
-                        <b>12:30 - 13:30</b> Presenting results<br>
-                        <b>13:30 - 14:00</b> Jury picks winners<br>
-                        <b>14:00 - 14:30</b> Award ceremony
-                    </span>
-                </div>
-                
-            </div>
-        </div>
-    </main>
-    
-    <main class="container-fluid" style="background-color: #ececec;">
+    <main class="container-fluid section_challengers">
         <a id="sponsors"></a>
         <div class="container">
             <p id="section_heading" style="margin-bottom: 70px;">
@@ -395,7 +417,7 @@
                     <img style="margin-bottom: 2em;" src="static/images/logo_paus.png"/>
                 </aside>
                 <section>
-                    <a href="https://www.paus.de/en/index.html">Hermann Paus Maschinenfabrik GmbH</a> develops and produces special-purpose machines and vehicles for special applications 
+                    <a target="_blank" href="https://www.paus.de/en/index.html">Hermann Paus Maschinenfabrik GmbH</a> develops and produces special-purpose machines and vehicles for special applications 
                     in tunnel construction and mining as well as for the areas of lift technology, construction machines and industrial vehicles. 
                     Our products have made a name for themselves as a problem solver in the industrial sector and trades – in both 
                     domestic and international use. Paus represents "Quality made in Germany".
@@ -407,7 +429,7 @@
                     <img style="max-width: 80%; margin-bottom: 2em;" src="static/images/becker_logo.png"/>
                 </aside>
                 <section>
-                    <a href="https://www.becker-mining.com/en">Becker Mining Systems AG</a> - Natural resources are limited and their 
+                    <a target="_blank" href="https://www.becker-mining.com/en">Becker Mining Systems AG</a> - Natural resources are limited and their 
                     extraction challenging. Our 1,500 employees worldwide support our customers in their transformation to climate-friendly 
                     resource extraction that increases customer productivity and production reliability while reducing their environmental footprint. 
                     Our high-quality, consistently reliable yet easy-to-integrate products secure satisfaction and loyalty in the mining industry worldwide.
@@ -419,7 +441,7 @@
                     <img style="max-width: 70%; margin-bottom: 2em;" src="static/images/talpa_logo_Bl.png"/>
                 </aside>
                 <section>
-                    At <a href="https://www.linkedin.com/company/talpasolutions">Talpasolutions</a>, we provide 
+                    At <a target="_blank" href="https://www.linkedin.com/company/talpasolutions">Talpasolutions</a>, we provide 
                     analytic solutions for fixed and mobile assets in the heavy industries. These machines accumulate a wealth of 
                     disparate data throughout all project phases, from planning to operations and maintenance. We combine data 
                     sources including embedded or retrofitted sensors on mobile equipment and fixed assets. With our end-to-end solution, 
@@ -433,11 +455,25 @@
                     <img style="max-width: 80%; margin-bottom: 2em;" src="static/images/komatsu_logo.png"/>
                 </aside>
                 <section>
-                    <a href="https://www.komatsu.eu/en">Komatsu Germany GmbH</a> with headquarter in Düsseldorf is part of the worldwide business player Komatsu Limited (KLTD).
+                    <a target="_blank" href="https://www.komatsu.eu/en">Komatsu Germany GmbH</a> with headquarter in Düsseldorf is part of the worldwide business player Komatsu Limited (KLTD).
                     Within the group, Komatsu Germany's mining division is responsible for the development, production and marketing of 
                     super large excavators for international open pit mining. Our Products are working all over the world, 
                     operating day and night under the toughest of conditions. 
                     At our 110,000 m² production plant in Düsseldorf, we produce excavators with weights of 250 t up to 760 t.                    
+                </section>
+            </div>
+
+            <div class="grid" class="sponsor_grid">
+                <aside>
+                    <img style="max-width: 80%; margin-bottom: 2em;" src="static/images/pfreundt.png"/>
+                </aside>
+                <section>
+                    <a target="_blank" href="https://www.pfreundt.de/en/">PFREUNDT GmbH</a>, based in Südlohn, Germany, plans, develops and sells 
+                    mobile weighing systems legal for trade including corresponding data transmission systems and software. 
+                    As the founder of mobile weighing systems, the company has been a global innovation leader 
+                    in the market for over 40 years. PFREUNDT's weighing systems reduce costs, 
+                    optimize processes and create competitive advantages for companies in the extraction, 
+                    disposal and recycling, agricultural and industrial sectors.                    
                 </section>
             </div>
             
@@ -445,7 +481,7 @@
         </div>
     </main>
     
-    <main class="container-fluid" >
+    <main class="container-fluid section_organizers">
         <a id="organizers"></a>
         <div class="container">
             <p id="section_heading" style="margin-bottom: 70px;">
@@ -488,13 +524,14 @@
     
     
     
-    <footer class="container-fluid" style="background-color: #ececec;">
+    <footer class="container-fluid" >
         <div class="container">
             <a style="font-size: 20px;" href="#up">&#128285</a> 
             <div class="grid" style="margin-top: 30px;">
                 <div>
                     <em>Hack&nbsp;Mining!</em> is organized by the Institute for Advanced Mining Technologies of 
-                    RWTH&nbsp;Aachen&nbsp;University&nbsp;<a target="_blank" href="https://www.amt.rwth-aachen.de/en/home.html">&#128279;</a> 
+                    RWTH&nbsp;Aachen&nbsp;University&nbsp;<a target="_blank" href="https://www.amt.rwth-aachen.de/en/home.html">&#128279;</a>,
+                    RWTH&nbsp;Innovation&nbsp;GmbH&nbsp;<a target="_blank" href="https://www.rwth-innovation.de/en/home">&#128279;</a>,  
                     and VDMA&nbsp;Mining&nbsp;<a target="_blank" href="https://www.vdma.org/mining">&#128279;</a>
                 </div>
                 <div style="text-align: right;margin-top: 50px;">

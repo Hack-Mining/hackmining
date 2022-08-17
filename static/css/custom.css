@@ -81,6 +81,34 @@ textarea{
     background-color: #079992;
 }
 
+.section_schedule{
+    background-color: #ececec;
+}
+
+.section_prices{
+    background-color: white;
+}
+
+.section_register{
+    background-color: #ececec;
+}
+
+.section_challenges{
+    background-color: white;
+}
+
+.section_challengers{
+    background-color: #ececec;
+}
+
+.section_organizers{
+    background-color: white;
+}
+
+footer{
+    background-color: #ececec;
+}
+
 
 .skill_bubble.analytics{
     background-color: #192a56;
@@ -96,4 +124,12 @@ textarea{
 
 .skill_bubble.ml{
     background-color: #FD7272;
+}
+
+.skill_bubble.communication{
+    background-color: #ffa801;
+}
+
+.skill_bubble.electronics{
+    background-color: #00d8d6;
 }
