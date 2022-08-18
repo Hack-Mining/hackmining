@@ -133,3 +133,11 @@ footer{
 .skill_bubble.electronics{
     background-color: #00d8d6;
 }
+
+.skill_bubble.business{
+    background-color: #778beb;
+}
+
+.skill_bubble.iiot{
+    background-color: #f8a5c2;
+}
