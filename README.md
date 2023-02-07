@@ -33,7 +33,7 @@ you have to do the following things
 - We've chosen github here as the RWTH gitlab had some weird permission settings which didn't allow the page to be viewed publicly
 
 # Developing (Detailed Guide)
-*Tipp:* Read the code!
+*Tipp:* Read the code! Check the commit history as well!
 
 ## HTML
 
